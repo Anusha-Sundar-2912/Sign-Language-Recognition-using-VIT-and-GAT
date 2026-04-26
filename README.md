@@ -134,10 +134,10 @@ Sign-Language-Recognition/
 ├── dataset/
 └── streamlit/
 ---
+
 📂 Dataset
 Dataset Used: WLASL (Word-Level American Sign Language)
 A large-scale dataset containing labeled sign language video samples
-
 🔗 Dataset Link: https://github.com/dxli94/WLASL
 ---
 ✔️ Highlights
@@ -146,11 +146,12 @@ Effectively captures both global visual features and spatial relationships of ha
 Implements a complete end-to-end pipeline from raw video input to final classification output
 Demonstrates performance improvement over individual models through ablation study
 Evaluated using multiple metrics including Accuracy, Precision, Recall, and F1-Score, ensuring comprehensive performance analysis
----<img width="694" height="748" alt="Architecture_slr" src="https://github.com/user-attachments/assets/2fd54a04-4f18-4b9b-ac63-4fcd1e2952c1" />
+---
 
 📈 Future Work
 Extend the system to support real-time sign language recognition using webcam input
 Scale the model to larger datasets such as WLASL2000 for improved generalization
 Incorporate advanced temporal modeling techniques (e.g., temporal transformers or sequence attention)
 Deploy the solution as a web or mobile application for real-world accessibility
-Optimize model performance for low-latency inference in edge or embedded environments<img width="644" height="526" alt="training performance" src="https://github.com/user-attachments/assets/b019fbaf-a4aa-436c-94d7-72b7ccc1b550" />
+Optimize model performance for low-latency inference in edge or embedded environments
+---
