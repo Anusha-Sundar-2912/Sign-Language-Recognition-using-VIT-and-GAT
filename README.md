@@ -124,7 +124,9 @@ python -m training.train
 streamlit run demo/streamlit_app.py
 ```
 ---
-📦 Project Structure
+## 📦 Project Structure
+
+```text
 Sign-Language-Recognition/
 │
 ├── preprocessing/
@@ -133,25 +135,27 @@ Sign-Language-Recognition/
 ├── inference/
 ├── dataset/
 └── streamlit/
+```
+---
+## 📂 Dataset
+
+- Dataset Used: WLASL (Word-Level American Sign Language)
+- A large-scale dataset containing labeled sign language video samples
+- 🔗 Dataset Link: https://github.com/dxli94/WLASL
+
+---
+## ✔️ Highlights
+- Developed a hybrid deep learning architecture integrating Vision Transformers (ViT) and Graph Attention Networks (GAT) for robust sign language recognition
+- Effectively captures both global visual features and spatial relationships of hand keypoints, improving gesture understanding
+- Implements a complete end-to-end pipeline from raw video input to final classification output
+- Demonstrates performance improvement over individual models through ablation study
+- Evaluated using multiple metrics including Accuracy, Precision, Recall, and F1-Score, ensuring comprehensive performance analysis
 ---
 
-📂 Dataset
-Dataset Used: WLASL (Word-Level American Sign Language)
-A large-scale dataset containing labeled sign language video samples
-🔗 Dataset Link: https://github.com/dxli94/WLASL
----
-✔️ Highlights
-Developed a hybrid deep learning architecture integrating Vision Transformers (ViT) and Graph Attention Networks (GAT) for robust sign language recognition
-Effectively captures both global visual features and spatial relationships of hand keypoints, improving gesture understanding
-Implements a complete end-to-end pipeline from raw video input to final classification output
-Demonstrates performance improvement over individual models through ablation study
-Evaluated using multiple metrics including Accuracy, Precision, Recall, and F1-Score, ensuring comprehensive performance analysis
----
-
-📈 Future Work
-Extend the system to support real-time sign language recognition using webcam input
-Scale the model to larger datasets such as WLASL2000 for improved generalization
-Incorporate advanced temporal modeling techniques (e.g., temporal transformers or sequence attention)
-Deploy the solution as a web or mobile application for real-world accessibility
-Optimize model performance for low-latency inference in edge or embedded environments
+## 📈 Future Work
+- Extend the system to support real-time sign language recognition using webcam input
+- Scale the model to larger datasets such as WLASL2000 for improved generalization
+- Incorporate advanced temporal modeling techniques (e.g., temporal transformers or sequence attention)
+- Deploy the solution as a web or mobile application for real-world accessibility
+- Optimize model performance for low-latency inference in edge or embedded environments
 ---
