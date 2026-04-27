@@ -67,7 +67,7 @@ The proposed hybrid model demonstrates significant improvement over standalone a
 ## 📊 Training Performance
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/1dd9aefb-ee7f-432e-a034-1aa2fe3a9c43" width="500"/>
+  <img width="1042" height="572" alt="accuracy curve slr" src="https://github.com/user-attachments/assets/8dc37b5d-e172-42c5-86de-7317c7d73d06" />
 </p>
 
 <p align="center"><i>Training accuracy curve showing convergence</i></p>
@@ -77,7 +77,7 @@ The proposed hybrid model demonstrates significant improvement over standalone a
 ## 📊 Confusion Matrix
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/f05a310b-1a9d-4698-acbe-16e2b7b3b17e" width="500"/>
+  <img width="1018" height="803" alt="confusion_matrix_slr" src="https://github.com/user-attachments/assets/155a820f-e5f2-458a-8727-0385dae22531" />
 </p>
 
 <p align="center"><i>Confusion matrix showing classification performance</i></p>
